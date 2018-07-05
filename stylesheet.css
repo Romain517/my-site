@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'open_sansregular';
+   
+    src: url('fonts/OpenSans-Regular-webfont.woff') format('woff');
+       
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p
+{
+	text-shadow: 0px 0px 10px black;
+	font-size: 1.5em;
+	font-family: 'open_sansregular';
+}
+
+/* On travaille sur la balise body, donc sur TOUTE la page */
+body
+{
+	font-family: 'open_sansregular';
+    background-image: url("images/wallpaper.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #FAFAFA;
+    text-shadow: 5px 0px 1px black;
+    margin: 1% 1% 2% 2%;
+    
+}
+
+h1
+{
+	text-align: : center;
+	border: 3px grey solid; 
+	border-radius: 10px;
+	box-shadow: 2px 3px 0px grey;
+	text-shadow: 3px 5px 0px green;
+	font-size: 1.9em;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 1.7em;
+	text-align: center;
+	clear: right;
+
+}
+
+li
+{
+	font-size: 1.4em;
+}
+
+.grominet
+{
+	float: right;
+	flex:1;
+}
+
+
+.intro
+{
+	color : orange;
+	border: 3px grey solid; 
+	margin-top: 1%;
+	border-radius: 10px;
+	height: 20em;
+	overflow: auto;
+	display: flex;
+	align-items: center;
+}
+
+.CV
+{
+	color : white;
+	border: 3px grey solid; 
+	margin-top: 1%;
+	border-radius: 10px;
+	overflow: auto;
+}
+
+
+.intro_text
+{
+	flex:3;
+}
+
+
+
+header
+{
+	border: 3px grey solid; 
+	margin-top: 1%;
+	border-radius: 10px;
+	width: 50%;
+}
+
+
+
